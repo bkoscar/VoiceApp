@@ -18,3 +18,19 @@ Para instalar los requerimientos, ejecuta el siguiente comando:
 ```bash
 pip install -r requerimientos.txt
 ```
+
+
+
+# Correr la inferencia
+```bash
+python main.py --text "<text>" --audio "<audio_de_referencia>"
+```
+
+# Nota
+En el archivo main.py  colocar las rutas de los modelos
+```python
+    model_path = "/home/oscar/Documents/AudioCloning/VoiceApp/models/spanish/pretrained_spanish/"
+    encoder_path = model_path + "encoder/saved_models/pretrained.pt"
+    syn_path = model_path + "synthesizer/saved_models/pretrained/pretrained.pt"
+    voc_path = model_path + "vocoder/saved_models/pretrained/pretrained.pt"
+```
