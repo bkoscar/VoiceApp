@@ -61,9 +61,9 @@ soundfile==0.12.1
 soxr==0.3.7
 sympy==1.12
 threadpoolctl==3.2.0
-torch==2.2.1+cu118
-torchaudio==2.2.1+cu118
-torchvision==0.17.1+cu118
+# torch==2.2.1+cu118
+# torchaudio==2.2.1+cu118
+# torchvision==0.17.1+cu118
 tornado==6.4
 tqdm==4.66.2
 triton==2.2.0
